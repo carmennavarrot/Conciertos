@@ -1,0 +1,141 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+
+
+.js_result {
+    color: #032e66;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js_result a {
+    color: #032e66;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.js-logout span {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #07496d;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.js-logout span:hover {
+    background-color: #07496d;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/organiser-un-concert-en-7-etapes.jpg');
+    background-attachment: fixed;
+background-size: cover;
+color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #484848;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}

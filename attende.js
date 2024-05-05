@@ -6,7 +6,7 @@ if (!token) {
   console.log(token);
   result.classList.remove('hidden');
 } else { 
-  fetch('https://conciertos.onrender.com//concerts/One', {
+  fetch('https://conciertos-1.onrender.com//concerts/One', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
